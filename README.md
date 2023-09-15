@@ -1,7 +1,29 @@
-# Crowdfunding ETL
+# Crowdfunding ETL Project
 
-For the ETL mini project, you will work with a partner to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After you transform the data, you'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, you’ll upload the CSV file data into a Postgres database.
+A collaborative project to build an ETL pipeline using Python, Pandas, and PostgreSQL for extracting, transforming, and loading crowdfunding data from Excel files into a relational database.
 
-Since this is a one-week project, make sure that you have done at least half of your project before the third day of class to stay on track.
+## Background
 
-Although you and your partner will divide the work, it’s essential to collaborate and communicate while working on different parts of the project. Be sure to check in with your partner regularly and offer support.
+In this project, I practiced building an ETL pipeline to process crowdfunding data from Excel files. I extracted and transformed the data, created four CSV files, and then used the CSV files to create an Entity Relationship Diagram (ERD) and a table schema. Finally, I loaded the CSV files into a PostgreSQL database.
+
+## Features
+
+- Extract and transform crowdfunding and contact data from Excel files
+- Create and export Category, Subcategory, Campaign, and Contact DataFrames as CSV files
+- Design an ERD and table schema for the database
+- Create and populate PostgreSQL database tables
+
+## Usage
+
+1. Run the Jupyter Notebook to extract and transform data, and create CSV files.
+2. Use the provided `crowdfunding_db_schema.sql` file to create tables in the PostgreSQL database.
+3. Load the CSV files into the corresponding PostgreSQL tables.
+4. Query the database to verify the data has been loaded correctly.
+
+## Built With
+
+- Python
+- Pandas
+- PostgreSQL
+- Jupyter Notebook
+- Excel
